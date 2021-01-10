@@ -14,7 +14,7 @@ const start = async (bocchi = new Client()) => {
     bocchi.onStateChanged((state) => {
         console.log('[BOCCHI STATE]', state)
         if (state === 'UNPAIRED') bocchi.forceRefocus()
-        if (state === 'CONFLICT') bocchi.forceRefocus()
+        if (state === 'CONFLICT') bocchi.orceRefocus()
         if (state === 'UNLAUNCHED') bocchi.forceRefocus()
     })
 
