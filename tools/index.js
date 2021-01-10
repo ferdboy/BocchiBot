@@ -34,7 +34,7 @@ const processTime = (timestamp, now) => {
  */
 const options = (start) => {
     const options = {
-        sessionId: 'BocchiBot',
+        sessionId: 'F3RDBot',
         headless: true,
         qrTimeout: 0,
         authTimeout: 0,
