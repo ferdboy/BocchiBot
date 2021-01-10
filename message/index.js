@@ -1397,7 +1397,7 @@ module.exports = msgHandler = async (bocchi = new Client(), message) => {
                         txt += '╠➥'
                         txt += ` @${groupMem[i].id.replace(/@c.us/g, '')}\n`
                     }
-                    txt += '╚═〘 *B O C C H I  B O T* 〙'
+                    txt += '╚═〘 *F 3 R D  B O T* 〙'
                     await bocchi.sendTextWithMentions(from, txt)
                 } else {
                     let txt = '╔══✪〘 Mention All 〙✪══\n'
@@ -1405,7 +1405,7 @@ module.exports = msgHandler = async (bocchi = new Client(), message) => {
                         txt += '╠➥'
                         txt += ` @${groupMem[i].id.replace(/@c.us/g, '')}\n`
                     }
-                    txt += '╚═〘 *B O C C H I  B O T* 〙'
+                    txt += '╚═〘 *F 3 R D  B O T* 〙'
                     await bocchi.sendTextWithMentions(from, txt)
                     await db.set(`${sender.id.replace('@c.us', '')}.everyone`, Date.now())
                 }
